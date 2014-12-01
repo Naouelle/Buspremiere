@@ -1,15 +1,22 @@
-<template name="loggin">
+<body>
+  <h1>MagicBus</h1>
+  {{> loginButtons}}
+  {{#if currentUser}}
+    <form class="new-user">
+      <input type="text" name="name" placeholder="Prénom">
+      <input type="text" name="lastname" placeholder="Nom">
+      <input type="text" name="city" placeholder="Ville">
+      <input type="text" name="tel" placeholder="Numéro de téléphone">
+      <input type="submit">
+    </form>
+    <ul>
+      {{#each clients}}
+        {{> client}}
+      {{/each}}
+    </ul>
+  {{/if}}
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
+<template name="client">
+  <li>Client: {{client}} | Prénom: {{name}} | Nom: {{lastname}} | Ville: {{city}} | Tel: {{tel}}</li>
 </template>
