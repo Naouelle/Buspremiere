@@ -1,17 +1,79 @@
 <template name="enfants">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<form role="form" class="new-enfants">
+					<div class="form-group">
+					<p>Nom</p>
+					<input type="text" name="nom" class="form-control" >
+					</div>
+					<div class="form-group">
+					<p>Prénom</p>
+					<input type="text" name="prenom" class="form-control" >
+					</div>
+					<div class="form-group">
+					<p>Ecole</p>
+					<input type="text" name="ecole" class="form-control">
+					</div>
+					<div class="form-group">
+					<p>Classe 2014/2015</p>
+					<input type="text" name="classe" class="form-control"  >
+					</div>
+					<br><br>
+					<div class="form-group">
+						<br>
+					<p>Prendra le car :</p>
+					<br><br>
+					<li>Le matin</li>
+					<select name="un">
+						<option>Près du domicile</option>
+						<option>A la garderie de vaupillon</option>
+						<option>Autre</option>
+					</select>
+					<input type="text" name="autrematin" placeholder="Lieu à préciser">
+				
+					<li>Le soir</li>
+					<select name="deux">
+						<option>Près du domicile</option>
+						<option>A la garderie de vaupillon</option>
+						<option>Autre</option>
+					</select>
+					<input  placeholder="Lieu à préciser" type="text" name="autresoir">
+					</div>  
+					<strong>Point d'arrêt du car :</strong><br>
+            <input  type="text" name="ptarretsoir">
 
+    <br><br><br><br>
 
+        <strong><p>Prendra le car le mercredi :</p></strong><br>
+            <li>Le matin</li>
+                <select name="trois">
+                    <option>Près du domicile</option>
+                    <option>A la garderie de Vaupillon</option>
+                    <option>Autre</option>
+                </select>
+            <input  placeholder="Lieu à préciser" class="autre" type="text" name="autremer">
 
+            <li>Le soir</li>
+            <select  name="quatre">
+                <option>Près du domicile</option>
+                <option>A la garderie de Vaupillon</option>
+                <option>Autre</option>
+            </select>
+            <input  placeholder="Lieu à préciser" class="autre" type="text" name="autremersoir">
+		 
+    <br><br>
 
-
-
-
-
-
-
-
-
-
-
-
+        <strong>Point d'arrêt du car :</strong><br>
+            <input  type="text" name="ptarretmersoir">
+            <div class="submit">
+                <br> <br>
+            <input type="submit" value="Inscrire mon enfant" />
+      </div>
+					
+				</form>
+			</div>
+		</div>
+	</div>
 </template>
+
