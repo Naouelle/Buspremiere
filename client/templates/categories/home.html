@@ -1,4 +1,5 @@
 <template name="home">
+<body>
     <div id="header">
         <h1>Ecole Primaire de La Loupe</h1>
     </div>
@@ -10,7 +11,9 @@
         <strong>{{> loginButtons}}</strong>
     </div>
     {{#if currentUser}}
-        <h1 id="first">Bienvenue sur notre application de gestion des transports scolaires !</h1>    
+        <h1 id="first">Bienvenue</h1> 
+        <h2 id="first">Gestion des transports scolaires</h2>   
     {{/if}}
+</body>
 
 </template>
