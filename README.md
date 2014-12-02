@@ -13,7 +13,7 @@ Voici le projet, "meteor bus ou magic bus", créer par l'équipe de Simplon vill
 Dans ce dossier vous trouverez, tous les fichiers du projet associé.
 Ce projet à pour but de simplifier la vie des agents communaux pour les communes de notre département, Eure et loir.
 Il se veut une aide sous forme d'application web, pour simplifier, la complexité de l'organisation dite de ramassage scolaire 
-auprès des communes du département. 
+auprès de la communauté de communes des portes du Perche,département d'Eure et loir. 
 Simplifier aussi la vie des familles quant à l'inscription de leurs enfants à ce service du département.
 Pour servir, les clients et les usagers de cette futur application web.
 
