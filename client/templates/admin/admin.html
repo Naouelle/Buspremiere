@@ -1,0 +1,8 @@
+<template name="admin">
+    {{> loginButton}}
+    <div class="posts">
+        {{#each stores}}
+            {{> storesItem}}
+        {{/each}}
+    </div>
+</template>
